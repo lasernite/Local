@@ -11,10 +11,12 @@
  * file per style scope.
  *
  *= require bootstrap.min
+ *= require welcome.css
  *= require_self
  *= require_tree .
  */
 
+/* Reference Bootstrap Glyphicons */
  @font-face {
   font-family: 'Glyphicons Halflings';
   src: url('../assets/glyphicons-halflings-regular.eot');

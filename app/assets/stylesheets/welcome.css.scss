@@ -87,7 +87,8 @@ hr {
 
 .navbar-blue {
   border-width: 0;
-  background-color: #3B5999;
+  // background-color: #3B5999;
+  background-image: linear-gradient(to bottom, rgba(33, 150, 202, 1), rgba(25, 151, 93, 0.65));
   color: #ffffff;
   font-family: arial,sans-serif;
   top: 0;
@@ -323,7 +324,7 @@ small.text-muted {
     padding-top: 20px;
   }
   .navbar-blue {
-    background-color: #3B5999;
+    // background-color: #3B5999;
     top: 0;
     width: 100%;
     position: relative;

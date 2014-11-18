@@ -197,7 +197,6 @@ hr {
 }
 
 #sidebar-footer {
-  background-color: #444;
   position: absolute;
   bottom: 5px;
   padding: 5px;
@@ -320,6 +319,11 @@ small.text-muted {
   font-family: courier,courier-new,monospace;
 }
 
+// Fix navbar for mobile (stange extra margin discolorization)
+.navbar {
+  margin-bottom: 0px;
+}
+
 /* adjust the contents on smaller devices */
 @media (max-width: 768px) {
   .column .padding {
@@ -329,10 +333,10 @@ small.text-muted {
     padding-top: 20px;
   }
   .navbar-blue {
-    // background-color: #3B5999;
     top: 0;
     width: 100%;
     position: relative;
+    padding-bottom: 20px;
   }
 }
 

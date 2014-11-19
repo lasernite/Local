@@ -162,9 +162,11 @@ hr {
   }
 }
 
-// Shift left-nav down away from top-nav bar
-.nav_padding {
-  margin-top: 70px;
+// Shift left-nav down away from top-nav bar on desktop
+@media screen and (min-width: 768px) {
+  .nav_padding {
+    margin-top: 70px;
+  } 
 }
 
 #sidebar-footer a {

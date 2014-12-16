@@ -29,6 +29,9 @@ gem 'spring',        group: :development
 # Automatically adds browser vendor prefixes to css when compiling
 gem 'autoprefixer-rails'
 
+# Geolocation Gem
+gem 'geocoder', '~> 1.2.6'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
